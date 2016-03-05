@@ -31,3 +31,13 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# Intellij
+.idea
+
+# Typescript, typings
+typings
+test/**/*.js
+test/**/*.jsx
+test/**/*.js.map
+test/**/*.jsx.map

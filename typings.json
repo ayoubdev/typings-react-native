@@ -1,6 +1,7 @@
 {
   "name": "react-native",
   "main": "react-native.d.ts",
+  "ambient": false,
   "author": "Ayoub ADIB <ayoub.development@gmail.com>",
   "description": "React Native Typescript Definition File",
   "dependencies": {},
