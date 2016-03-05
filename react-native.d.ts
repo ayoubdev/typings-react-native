@@ -1,13 +1,8 @@
-//On le déclare en tant que namespace afin de dissocier les définition pour du React pure
-//et les définitions pour du React Native. Les deux namespaces auront le même nom (React)
+//REACT.JS namespace import:
+import React = __React;
+
+//On utilise un namespace avec le même nom que celui de reactjs (__React)
 //pour obtenir une définition globale mixée entre celles de react et celles de react-native.
-//On aurait très bien pu faire les mettre sous un même declare namespace mais dans un soucis de clarté
-//et pour une meilleure maintenance (dans le cas où on dissociera dans 2 fichiers d.ts différents), il est
-//mieux de faire un appel dupliqué à declare namespace React:
-
-//REACT.JS API:
-/// <reference path="../typings/main.d.ts" />
-
 //Pour plus de détails d.ts JSX: https://github.com/Microsoft/TypeScript/wiki/JSX
 declare namespace __React {
 	//Custom Types:
@@ -203,8 +198,6 @@ declare namespace JSX {
 }
 
 declare module 'react-native' {
-	import React = __React;
-
 	export class Component<P, S> extends React.Component<P,S> {
 	}
 	export class Text extends React.Text {
