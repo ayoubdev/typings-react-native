@@ -1,0 +1,32 @@
+{
+  "name": "typings-react-native",
+  "version": "1.0.0",
+  "description": "React Native definition file for Typescript",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm run init && npm run test",
+    "init": "typings install",
+    "test": "tsc -p ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayoubdev/typings-react-native.git"
+  },
+  "keywords": [
+    "typescript",
+    "react-native",
+    "typings",
+    "definition",
+    "file"
+  ],
+  "author": "Ayoub ADIB <ayoub.development@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayoubdev/typings-react-native/issues"
+  },
+  "homepage": "https://github.com/ayoubdev/typings-react-native#readme",
+  "devDependencies": {
+    "typescript": "^1.8.7",
+    "typings": "^0.6.10"
+  }
+}
