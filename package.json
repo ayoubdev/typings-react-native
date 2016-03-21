@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "npm run init && npm run test",
-    "init": "typings install",
+    "init": "typings install --ambient react",
     "test": "tsc -p ./test"
   },
   "repository": {

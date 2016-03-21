@@ -2,7 +2,6 @@
     "compilerOptions": {
         "module": "es2015",
         "target": "es2015",
-        "allowJs": true,
         "jsx": "react",
         "noImplicitAny": true,
         "noImplicitReturns": true,
@@ -12,7 +11,6 @@
         "sourceMap": true
     },
 	"files": [
-		"../typings/main.d.ts",
 		"../react-native.d.ts",
 		"./test.tsx"
 	]

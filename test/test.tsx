@@ -2,8 +2,7 @@
 	Typescript target version: ES6 (to allow Babel and Webpack to read and bundle js transpiled file)
  */
 //import * as React from "react-native";
-import React, {View, Text, PropTypes, StyleSheet, Component} from "react-native";
-
+import React, {StyleSheet, Text, PropTypes, View, Component} from "react-native";
 
 let styles = StyleSheet.create({
 	container: {
@@ -15,6 +14,7 @@ let styles = StyleSheet.create({
 	}
 });
 
+let toto : React.color;
 
 class App extends Component<any, any> {
 	static propTypes = {
