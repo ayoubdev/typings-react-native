@@ -4,6 +4,8 @@
 import ReactJS = __React;
 
 //REACT-NATIVE DEFINITIONS && React Shared Apis:
+//pas d'export module car déjà exporté via export default et on ne veut pas exposer notre module sans
+//default (i.e. on ne veut pas y accéder via React.React.color... lorsque import * as React from "react-native"):
 declare module React {
 	//On utilise le même nom de namespace que celui contenant les définition de react
 	//afin d'obtenir une définition globale mixée entre celles de react et celles de react-native
@@ -198,7 +200,6 @@ export var PropTypes:React.PropTypes;
 
 
 export default React;
-
 
 
 //Misc:
